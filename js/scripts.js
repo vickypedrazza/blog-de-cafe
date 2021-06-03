@@ -1,12 +1,12 @@
 //querySelector
 const heading = document.querySelector(".header__texto h2")//Retorta 0 a 1 elementos
-heading.textContent = "Nuevo Heading" //cambia el html a traves de js
+
 
 
 //querySelectorAll
 //retorna de 0 a todos los que conecuerden con este selector
 const enlaces = document.querySelectorAll(" .navegacion a");
-enlaces[0].textContent = "Nuevo texto para enlace"
+enlaces[0].textContent = "Nosotros"
 enlaces[0].classList.add("nueval-clase")
 // enlaces[0].classList.remove("navegacion__enlace")
 
@@ -19,7 +19,7 @@ const nuevoEnlace = document.createElement("a")
 nuevoEnlace.href = "nuevo.enlace.html";
 
 //Agregar el texto
-nuevoEnlace.textContent = "Un nuevo Enlace"
+//nuevoEnlace.textContent = "Un nuevo Enlace"
 
 //Agregar la clase
 nuevoEnlace.classList.add("navegacion__enlace")
